@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Really</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../dist/really.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/really.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Demos</h2>
+        <br>
+        <ul class="list-inline">
+            <li> <a class="btn btn-link" href="javascript:really.warn('Really warn',20000)">Really Warn</a></li>
+            <li> <a class="btn btn-link" href="javascript:really.default('Really Default',20000)">Really Default</a></li>
+            <li> <a class="btn btn-link" href="javascript:really.attention('Really Attention',20000)">Really Attention</a></li>
+            <li> <a class="btn btn-link" href="javascript:really.success('Really Success',20000)">Really Success</a></li>
+        </ul>
+        <h2>installation</h2>
+        <uL>
+            <li><a href='https://github.com/zixxtrth/really'>GitHub</a></li>
+            <li>bower : <code>bower install really</code></li>
+        </uL>
+        <h2>Usage: </h2> <code>
+            really.default('Message body', duration);
+        </code>
+        <br>
+        <br> <code>
+            really.warn('Message body', duration);
+        </code>
+        <br>
+        <br> <code>
+            really.attention('Message body', duration);
+        </code>
+        <br>
+        <br> <code>
+            really.success('Message body', duration);
+        </code>
+        <br>
+        <br> <code>
+            really.close();
+        </code>
+        <br>
+        <br>
+        <table class="table table-bordered " style="width:50%;margin:1em 0px;">
+            <tr>
+                <th>function</th>
+                <th>parameter</th>
+            </tr>
+            <tr>
+                <td>warn</td>
+                <td class="text-left"> the message body , show duration in seconds (1000 = 1 sec)</td>
+            </tr>
+            <tr>
+                <td>attention</td>
+                <td class="text-left"> the message body , show duration in seconds (1000 = 1 sec)</td>
+            </tr>
+            <tr>
+                <td>deafult</td>
+                <td class="text-left"> the message body , show duration in seconds (1000 = 1 sec)</td>
+            </tr>
+            <tr>
+                <td>success</td>
+                <td class="text-left"> the message body , show duration in seconds (1000 = 1 sec)</td>
+            </tr>
+            <tr>
+                <td>close</td>
+                <td class="text-left">-</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
