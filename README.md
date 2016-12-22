@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+## Really 1.0
 
-You can use the [editor on GitHub](https://github.com/zixxtrth/really/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Really is javascript Library for create flat UI Notifications 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### installation
 
-### Markdown
+- [GitHub](https://github.com/zixxtrth/really)
+- bower : 'bower install really'
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zixxtrth/really/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ <h2>Usage: </h2> <code>
+            really.default('Message body', duration);
+        </code>
+        <br>
+        <br> <code>
+            really.warn('Message body', duration);
+        </code>
+        <br>
+        <br> <code>
+            really.attention('Message body', duration);
+        </code>
+        <br>
+        <br> <code>
+            really.success('Message body', duration);
+        </code>
+        <br>
+        <br> <code>
+            really.close();
+        </code>
+        <br>
+        <br>
+        <table class="table table-bordered " style="width:50%;margin:1em 0px;">
+            <tr>
+                <th>function</th>
+                <th>parameter</th>
+            </tr>
+            <tr>
+                <td>warn</td>
+                <td class="text-left"> the message body , show duration in seconds (1000 = 1 sec)</td>
+            </tr>
+            <tr>
+                <td>attention</td>
+                <td class="text-left"> the message body , show duration in seconds (1000 = 1 sec)</td>
+            </tr>
+            <tr>
+                <td>deafult</td>
+                <td class="text-left"> the message body , show duration in seconds (1000 = 1 sec)</td>
+            </tr>
+            <tr>
+                <td>success</td>
+                <td class="text-left"> the message body , show duration in seconds (1000 = 1 sec)</td>
+            </tr>
+            <tr>
+                <td>close</td>
+                <td class="text-left">-</td>
+            </tr>
+        </table>
