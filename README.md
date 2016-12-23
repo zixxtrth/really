@@ -15,9 +15,7 @@ Really is javascript Library for create flat UI Notifications
             'really.attention('Message body', duration);'
 
             'really.success('Message body', duration);'
-        
-    
-        
+         
             'really.close();'
    
    ### Dependence
