@@ -7,31 +7,23 @@ Really is javascript Library for create flat UI Notifications
 - [GitHub](https://github.com/zixxtrth/really)
 - bower : 'bower install really'
 
- <h2>Usage: </h2> <code>
-            really.default('Message body', duration);
-        </code>
-        <br>
-        <br> <code>
-            really.warn('Message body', duration);
-        </code>
-        <br>
-        <br> <code>
-            really.attention('Message body', duration);
-        </code>
-        <br>
-        <br> <code>
-            really.success('Message body', duration);
-        </code>
-        <br>
-        <br> <code>
-            really.close();
-        </code>
-        <br>
-        <br>
-        <h2>Dependence</h2>
-        - [jQuery](https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js)
+### Dependence :
+- [jQuery](https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js)
+
+### Usage :
+            'really.default('Message body', duration);'
+
+            'really.warn('Message body', duration);'
+            
+            'really.attention('Message body', duration);'
+
+            'really.success('Message body', duration);'
+         
+            'really.close();'
+   
+
         
-        <table class="table table-bordered " style="width:50%;margin:1em 0px;">
+  <table class="table table-bordered " style="width:50%;margin:1em 0px;">
             <tr>
                 <th>function</th>
                 <th>parameter</th>
@@ -57,4 +49,4 @@ Really is javascript Library for create flat UI Notifications
                 <td class="text-left">-</td>
             </tr>
         </table>
-        <p><b>** if the duration is null the alert wil be   for 3 sec as a stander time </b></p>
+**if the duration is null the alert wil be   for 3 sec as a stander time**
