@@ -1,5 +1,19 @@
+/**
+*
+* Really 1.0
+* javascript Library for create flat UI Notifications
+* authored by Abdallah M.M.N. Abukhader
+* copyrights for nts 2016
+**/
 var really = (function () {
-    var alertBoxTemplate = jQuery('<div class="alert" id="alert" ><div class="context"></div><a href="javascript:really.close()" class="closeAlert">&#10005;</a></div>');
+    function alertTemplateGenerator(type, context) {
+        var alertBoxTemplate = jQuery('<div class="alert" id="alert" ><div class="context"></div><a href="javascript:really.close()" class="closeAlert">&#10005;</a></div>');
+        alertBoxTemplate.attr('class', '');
+        alertBoxTemplate.addClass('alert');
+        alertBoxTemplate.addClass(type);
+        alertBoxTemplate.find('.context').html(context);
+        return alertBoxTemplate;
+    }
     // remove the alert
     function closeAlert() {
         $('#alert').remove();
@@ -9,11 +23,7 @@ var really = (function () {
         closeAlert();
         var time;
         duration ? time = duration : time = 3000;
-        alertBoxTemplate.attr('class', '');
-        alertBoxTemplate.addClass('alert');
-        alertBoxTemplate.addClass('alert-default');
-        alertBoxTemplate.find('.context').html(context);
-        jQuery('html').append(alertBoxTemplate);
+        jQuery('html').append(alertTemplateGenerator('alert-default',context));
         setTimeout(function () {
             $('#alert').remove();
         }, time);
@@ -23,11 +33,7 @@ var really = (function () {
         closeAlert();
         var time;
         duration ? time = duration : time = 3000;
-        alertBoxTemplate.attr('class', '');
-        alertBoxTemplate.addClass('alert');
-        alertBoxTemplate.addClass('alert-warn');
-        alertBoxTemplate.find('.context').html(context);
-        jQuery('html').append(alertBoxTemplate);
+        jQuery('html').append(alertTemplateGenerator('alert-warn',context));
         setTimeout(function () {
             $('#alert').remove();
         }, time);
@@ -37,11 +43,7 @@ var really = (function () {
         closeAlert();
         var time;
         duration ? time = duration : time = 3000;
-        alertBoxTemplate.attr('class', '');
-        alertBoxTemplate.addClass('alert');
-        alertBoxTemplate.addClass('alert-success');
-        alertBoxTemplate.find('.context').html(context);
-        jQuery('html').append(alertBoxTemplate);
+        jQuery('html').append(alertTemplateGenerator('alert-success',context));
         setTimeout(function () {
             $('#alert').remove();
         }, time);
@@ -51,10 +53,7 @@ var really = (function () {
         closeAlert();
         var time;
         duration ? time = duration : time = 3000;
-        alertBoxTemplate.attr('class', '');
-        alertBoxTemplate.addClass('alert');
-        alertBoxTemplate.addClass('alert-attention');
-        alertBoxTemplate.find('.context').html(context);
+        jQuery('html').append(alertTemplateGenerator('alert-attention',context));
         jQuery('html').append(alertBoxTemplate);
         setTimeout(function () {
             $('#alert').remove();

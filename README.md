@@ -28,6 +28,8 @@ Really is javascript Library for create flat UI Notifications
         </code>
         <br>
         <br>
+        <h2>Dependence</h2>
+        - [jQuery] (https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js)
         <table class="table table-bordered " style="width:50%;margin:1em 0px;">
             <tr>
                 <th>function</th>
@@ -54,3 +56,4 @@ Really is javascript Library for create flat UI Notifications
                 <td class="text-left">-</td>
             </tr>
         </table>
+        <p><b>** if the duration is null the alert wil be   for 3 sec as a stander time </b></p>

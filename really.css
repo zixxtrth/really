@@ -1,67 +1,85 @@
-		.alert{
-            font-size: 14px;
-			position: fixed !important;
-			bottom: 0px !important;
-			left: 0px !important;
-			right: 0px !important;
-			padding: 16px !important;
-			z-index: 9999 !important;
-            margin: 0 !important;
-		}
-		.alert .closeAlert{
-			cursor: pointer;
-			margin-left:5px; 
-		}
-		.context{
-			float: left;
-    		font-family: sans-serif;
-    		font-weight: lighter;
-		}
-		 .alert-default{
-			background-color:  #ecf0f1;
-			color: #666;
-			border-top: 2px solid #bdc3c7;
-		}
-		.alert-default .closeAlert{
-			float: right;
-			text-decoration: none;
-			color: #666;
-			padding-left: 10px;
-			border-left: 1px solid #666;
-		}
-		 .alert-success{
-			background-color: #27ae60; 
-			color: #fff;
-			border-top: 2px solid #16a085;
-		}
-		.alert-success .closeAlert{
-			float: right;
-			text-decoration: none;
-			color: #fff;
-			padding-left: 10px;
-			border-left: 1px solid #fff;
-		}
-		.alert-warn{
-			background-color:  #c0392b;
-			border-top: 2px solid #d35400;
-			color: #fff;
-		}
-		.alert-warn .closeAlert{
-			float: right;
-			text-decoration: none;
-			color: #fff;
-			padding-left: 10px;
-			border-left: 1px solid #fff;
-		}
-		.alert-attention{
-			background-color:  #f39c12;
-			border-top: 2px solid #e67e22;
-			color: #fff;
-		}
-		.alert-attention .closeAlert{
-			float: right;
-			text-decoration: none;
-			color: #fff;
-			padding-left: 10px;
-			border-left: 1px solid #fff;
-		}
+/**
+*
+* Really 1.0
+* javascript Library for create flat UI Notifications
+* authored by Abdallah M.M.N. Abukhader
+* copyrights for nts 2016
+**/
+
+.alert {
+    font-size: 14px;
+    position: fixed !important;
+    bottom: 0px !important;
+    left: 0px !important;
+    right: 0px !important;
+    padding: 16px !important;
+    z-index: 9999 !important;
+    margin: 0 !important;
+}
+
+.alert .closeAlert {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.context {
+    float: left;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.alert-default {
+    background-color: #ecf0f1;
+    color: #666;
+    border-top: 2px solid #bdc3c7;
+}
+
+.alert-default .closeAlert {
+    float: right;
+    text-decoration: none;
+    color: #666;
+    padding-left: 10px;
+    border-left: 1px solid #666;
+}
+
+.alert-success {
+    background-color: #27ae60;
+    color: #fff;
+    border-top: 2px solid #16a085;
+}
+
+.alert-success .closeAlert {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+}
+
+.alert-warn {
+    background-color: #c0392b;
+    border-top: 2px solid #d35400;
+    color: #fff;
+}
+
+.alert-warn .closeAlert {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+}
+
+.alert-attention {
+    background-color: #f39c12;
+    border-top: 2px solid #e67e22;
+    color: #fff;
+}
+
+.alert-attention .closeAlert {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+}
