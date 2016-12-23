@@ -9,7 +9,8 @@ Really is javascript Library for create flat UI Notifications
 
 ### Dependence :
 - [jQuery](https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js)
-## Usage :
+
+### Usage :
             'really.default('Message body', duration);'
 
             'really.warn('Message body', duration);'
@@ -22,7 +23,7 @@ Really is javascript Library for create flat UI Notifications
    
 
         
-        <table class="table table-bordered " style="width:50%;margin:1em 0px;">
+  <table class="table table-bordered " style="width:50%;margin:1em 0px;">
             <tr>
                 <th>function</th>
                 <th>parameter</th>
@@ -48,4 +49,4 @@ Really is javascript Library for create flat UI Notifications
                 <td class="text-left">-</td>
             </tr>
         </table>
-        <p><b>** if the duration is null the alert wil be   for 3 sec as a stander time </b></p>
+** if the duration is null the alert wil be   for 3 sec as a stander time**
