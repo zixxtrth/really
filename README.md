@@ -6,7 +6,8 @@ Really is javascript Library for create flat UI Notifications
 
 - [GitHub](https://github.com/zixxtrth/really)
 - bower : 'bower install really'
-
+### Dependence :
+  - [jQuery](https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js)
  ## Usage :
             'really.default('Message body', duration);'
 
@@ -18,8 +19,7 @@ Really is javascript Library for create flat UI Notifications
          
             'really.close();'
    
-   ### Dependence
-        - [jQuery](https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js)
+
         
         <table class="table table-bordered " style="width:50%;margin:1em 0px;">
             <tr>
