@@ -49,4 +49,4 @@ Really is javascript Library for create flat UI Notifications
                 <td class="text-left">-</td>
             </tr>
         </table>
-**if the duration is null the alert wil be   for 3 sec as a stander time**
+**if the duration is null the alert will be shown for 3 sec as a stander time**
