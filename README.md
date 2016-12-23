@@ -6,9 +6,10 @@ Really is javascript Library for create flat UI Notifications
 
 - [GitHub](https://github.com/zixxtrth/really)
 - bower : 'bower install really'
+
 ### Dependence :
-  - [jQuery](https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js)
- ## Usage :
+- [jQuery](https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js)
+## Usage :
             'really.default('Message body', duration);'
 
             'really.warn('Message body', duration);'
